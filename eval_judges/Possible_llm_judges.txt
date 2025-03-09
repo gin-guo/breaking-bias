@@ -1,8 +1,0 @@
-Possible LLM Judges
-- Gemma
-- Mistral
-- Qwen
-
-Or
-
-Regular LLMs with an instance of Llama 3B and two instances of Gemma 2B with different system prompts.
