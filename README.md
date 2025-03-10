@@ -23,7 +23,7 @@ To expedite the evaluation process, we utilized **GPUs** in the **Kaggle noteboo
 
 - `old_versions`: Contains previous iterations of the pipeline.
 - `ece324-highest-score.ipynb`: Best performing notebook from the competition.
-- `embeddings.ipynb`: Tests embedding-based approaches for essay generation.
+- `ece324-word-embeddings.ipynb`: Tests embedding-based approaches for essay generation.
 
 #### `eval_judges/` : Contains **the main evaluation notebooks** for scoring essays using LLM judges.
 
