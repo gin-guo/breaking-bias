@@ -29,7 +29,7 @@ To expedite the evaluation process, we utilized **GPUs** in the **Kaggle noteboo
 #### `essay_pipeline/` : Houses the **core implementation** of the essay generation framework.
 
 - `prompt-engineering.ipynb`: Prompt engineering-based approaches for essay generation.
-- `embeddings.ipynb`: Tests embedding-based approaches for essay generation.
+- `word-embeddings.ipynb`: Tests embedding-based approaches for essay generation.
 
 #### `eval_judges/` : Contains **the main evaluation notebooks** for scoring essays using LLM judges.
 
