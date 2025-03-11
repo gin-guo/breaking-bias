@@ -7,7 +7,7 @@ This project is inspired by the Kaggle competition **"LLMs - You Can't Please Th
 To expedite the evaluation process, we utilized **GPUs** in the **Kaggle notebooks** to perform inference efficiently and at no cost. You can access the uploaded Kaggle notebooks here:
 
 - [🔗 Essay Generation Notebook using Prompt-Engineering strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-prompt-engineered-essay-generation)
-- [🔗 Essay Generation Notebook using word-embeddings strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-10-142-score-v2)
+- [🔗 Essay Generation Notebook using word-embeddings strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-word-embeddings)
 - [🔗 Evaluation Notebook on Kaggle](https://www.kaggle.com/code/ig0yss/evaluation)
 
 ## Features
