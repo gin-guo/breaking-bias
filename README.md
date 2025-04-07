@@ -40,6 +40,7 @@ Evaluation metrics and visualizations:
 Core logic for generating essays:
 
 - `essay-generation-pipeline.ipynb` – Pipeline with essay generation strategies.
+- Includes the following strategies: baseline, add Gaussian noise, scramble sentences, prompt injection, list conversion, and direct controversy prompting
 
 ### `eval_judges/`
 
