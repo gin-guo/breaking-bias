@@ -8,7 +8,7 @@ To expedite the evaluation process, we utilized **GPUs** in the **Kaggle noteboo
 
 - [🔗 Essay Generation Notebook using Prompt-Engineering strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-prompt-engineered-essay-generation)
 - [🔗 Essay Generation Notebook using word-embeddings strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-word-embeddings)
-- [🔗 Evaluation Notebook on Kaggle](https://www.kaggle.com/code/ig0yss/evaluation)
+- [🔗 Evaluation Notebook on Kaggle](https://www.kaggle.com/code/ig0yss/evaluation-latest)
 
 ## Features
 
@@ -16,27 +16,48 @@ To expedite the evaluation process, we utilized **GPUs** in the **Kaggle noteboo
 - **Local Evaluation Pipeline**: Simulates the Kaggle judging process using multiple LLMs.
 - **Kaggle notebook with GPU Support**: Enables users to run model evaluations efficiently without local hardware constraints.
 
+### **Directory Descriptions**
+
 ---
 
-### **Folder Descriptions**
+### `data/`
 
-#### `data/` :
+Contains the dataset used for essay generation and evaluation:
 
-- `input.csv`: Contains competition dataset of essay topics used for generating adversarial essays.
-- `essay_prompts.csv`: Contains 500 additional self-generated random topics for essay generation.
-- `Logbook for scores.xlsx`: Recorded scores from the competition.
+- `input.csv` – Official essay topics from the Kaggle competition.
+- `essay_prompts.csv` – 500 randomly generated prompts.
+- `generated_essays.csv` – Adversarially generated essays.
 
-#### `essay_pipeline/` : Houses the **core implementation** of the essay generation framework.
+#### `data_evaluation/`
 
-- `prompt-engineering.ipynb`: Prompt engineering-based approaches for essay generation.
-- `word-embeddings.ipynb`: Tests embedding-based approaches for essay generation.
+Evaluation metrics and visualizations:
 
-#### `eval_judges/` : Contains **the main evaluation notebooks** for scoring essays using LLM judges.
+- `plotted_graphs/` – Graphs from analysis.
+- `data_processing.ipynb` – Code for processing raw data
+- `raw_results.pdf` - Compiled raw data.
 
-- **`Open_source/`**: Includes notebooks adapted from publicly available Kaggle discussions.
-  - `evaluation-metric-approx.ipynb`: Implements an approximation of the Kaggle evaluation metric.
-  - `exploring-scoring-metrics.ipynb`: Tests various scoring approaches for judge agreement.
-  - `sample-notebook-with-judges.ipynb`: Provides a simple example of LLM-based judging.
-- `evaluation.ipynb`: **Main evaluation notebook** that attempts to replicate the LLM-judging process.
+### `essay_pipeline/`
+
+Core logic for generating essays:
+
+- `prompt-engineering.ipynb` – Essay generation using prompt engineering.
+- `ece324-word-embeddings.ipynb` – Embedding-based generation approach.
+- `ece324-essay-generation-pipeline.ipynb` – Combined pipeline structure.
+
+### `eval_judges/`
+
+Judging logic and evaluation scripts:
+
+- `evaluation.ipynb` – Main notebook for simulating LLM judge committees.
+- Uses both **persona-based** (`Phi-4` with prompt conditioning) and **model-based** committees.
+
+### `Archive/`
+
+Legacy or reference materials from open-source resources:
+
+- `evaluation-metric-approx.ipynb` – Reconstructs Kaggle’s hidden evaluation metric.
+- `exploring-scoring-metrics.ipynb` – Examines alternative scoring designs.
+- `sample-notebook-with-judges.ipynb` – Minimal pipeline prototype.
+- `Logbook for scores.xlsx` – Competition score records.
 
 ---
