@@ -6,8 +6,7 @@ This project is inspired by the Kaggle competition **"LLMs - You Can't Please Th
 
 To expedite the evaluation process, we utilized **GPUs** in the **Kaggle notebooks** to perform inference efficiently and at no cost. You can access the uploaded Kaggle notebooks here:
 
-- [🔗 Essay Generation Notebook using Prompt-Engineering strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-prompt-engineered-essay-generation)
-- [🔗 Essay Generation Notebook using word-embeddings strategies on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-word-embeddings)
+- [🔗 Essay Generation Notebook on Kaggle](https://www.kaggle.com/code/ginnguo/ece324-essay-generation-pipeline)
 - [🔗 Evaluation Notebook on Kaggle](https://www.kaggle.com/code/ig0yss/evaluation-latest)
 
 ## Features
@@ -40,9 +39,7 @@ Evaluation metrics and visualizations:
 
 Core logic for generating essays:
 
-- `prompt-engineering.ipynb` – Essay generation using prompt engineering.
-- `ece324-word-embeddings.ipynb` – Embedding-based generation approach.
-- `ece324-essay-generation-pipeline.ipynb` – Combined pipeline structure.
+- `essay-generation-pipeline.ipynb` – Pipeline with essay generation strategies.
 
 ### `eval_judges/`
 
